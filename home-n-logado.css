@@ -1,0 +1,35 @@
+ header{
+  padding: 20px 0;
+   color: white;  
+   font-size: 150%; 
+   background: #74BAA0;
+   font-family: Arial, Helvetica, sans-serif;
+      }
+
+  .caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+  }
+
+ .caixa p {
+  border-radius: 10px;
+  background: #EC8213;
+  padding: 25px;
+  width: 90px;
+  height: 100px;  
+  text-align: center;
+  
+  padding-top: 2px;
+  width: 20;
+  height: 10%;
+  font-size: 75%;
+  position: absolute;
+  top: 0;
+  right:  0;
+
+ }
+       
+  
+
+  
