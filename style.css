@@ -12,13 +12,34 @@ body {
 }
 section {
     align-items: center;
+    text-align: center;
     margin: auto;
-
+    
 }
 section h1 {
    font-size: 30px;
-
 }
 section p {
+    font-size: 20px;    
+}
+section input{
+    width: 250px;
+    height: 30px;
+    border-color: #74BAA0;
+    border-radius: 10px;
+    padding: 10px;
+    margin:  10px;
+}
+section a {
+    margin: 10px;
+    padding: 10px;
     
+}
+section button {
+    background-color: #EC8213;
+    border: #F0F0F0;
+    width: 275px;
+    height: 40px;
+    border-radius: 10px;
+    margin:  10px;
 }
