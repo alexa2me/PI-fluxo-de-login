@@ -23,7 +23,7 @@ section p {
     font-size: 20px;    
 }
 section input{
-    width: 250px;
+    width: 350px;
     height: 30px;
     border-color: #74BAA0;
     border-radius: 10px;
@@ -38,7 +38,7 @@ section a {
 section button {
     background-color: #EC8213;
     border: #F0F0F0;
-    width: 275px;
+    width: 375px;
     height: 40px;
     border-radius: 10px;
     margin:  10px;
