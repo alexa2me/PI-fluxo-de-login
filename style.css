@@ -3,4 +3,22 @@ body {
     padding: 0;
     background-color: #F0F0F0;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    }
+#img {
+    width: 520px;
+    height: 664px;
+}
+section {
+    align-items: center;
+    margin: auto;
+
+}
+section h1 {
+   font-size: 30px;
+
+}
+section p {
+    
 }
