@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+<style>
+
+    *{
+        
+        box-sizing: border-box;
+    }
+
+    body{
+        background: linear-gradient(#000000, #DCDCDC );
+        width: 100%;           
+        height: 100%;
+
+    }
+
+    form{
+        width: 100%;
+        height: 20%;
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    input{
+        display: block;
+        margin: 0.5% auto;
+        width: 15%;
+        height: 20%;
+    }
+
+
+</style>
+
+<form>
+
+    <h1>Pet a vista</h1>
+    <input type="text" placeholder="Encontrar" id="encontrar">  
+    <input type="submit" value="Encontrar" onclick="Encontrar(); return false">
+
+</form>
+
+<script>
+
+
+    function Entrar(){
+
+        var encontrar = document.getElementById('Encontrar').value;
+
+        if(encontrar == "gato"){        
+            location.href = "encontrado.html";
+        }else{
+            alert('não encontrado');
+        }
+
+    }
+
+</script>
+
+
+</head>
+<body>
