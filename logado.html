@@ -44,7 +44,7 @@
     <form>
 
         <h1>Pet a vista</h1>
-        <input type="text" placeholder="Encontrar" id="encontrar">
+        <input type="text" placeholder="Encontrar Pet..." id="encontrar">
         <input type="submit" value="Entrar" onclick="Entrar(); return false">
 
     </form>
@@ -56,13 +56,16 @@
 
             var encontrar = document.getElementById('encontrar').value;
 
-            if(encontrar == "gato"){        
+            if(encontrar == "gato" || encontrar == "cachorro"){        
                 location.href = "encontrado.html";
-            }else{
+             } else{
                 alert('Não encontrado');
+            
+                }
+            
+                
             }
 
-        }
 
     </script>
 
