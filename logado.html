@@ -44,7 +44,7 @@
     <form>
 
         <h1>Pet a vista</h1>
-        <input type="text" placeholder="Usuário" id="usuario">
+        <input type="text" placeholder="Encontrar" id="encontrar">
         <input type="submit" value="Entrar" onclick="Entrar(); return false">
 
     </form>
@@ -54,9 +54,9 @@
 
         function Entrar(){
 
-            var usuario = document.getElementById('usuario').value;
+            var encontrar = document.getElementById('encontrar').value;
 
-            if(usuario == "gato" && usuario == "gato"){        
+            if(encontrar == "gato"){        
                 location.href = "encontrado.html";
             }else{
                 alert('Não encontrado');
