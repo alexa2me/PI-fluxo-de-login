@@ -1,0 +1,16 @@
+ .container{
+    display:flex;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 2%;
+ }
+    footer{
+    
+    width: 1440px;
+    height: 156px;
+    background-color: #3E9278;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    
+}
