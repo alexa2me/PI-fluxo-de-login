@@ -1,0 +1,41 @@
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #74BAA0;
+    }
+
+    li{
+        float: left;
+        display : inline;
+    }
+    h1{
+        
+        font-family:  Inter, Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 300px;
+        font-size: 47px;
+        color: #FFFFFF;
+        padding-left: 190px;
+
+    }
+    button{
+        
+        width: 200px;
+        height: 50px;
+        left: 1200px;
+        top: 43px;
+
+        background: #EC8213;
+        border-radius: 10px;
+
+        position: absolute;
+        
+        font-family: 'Inter','Arial';
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 25px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
