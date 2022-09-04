@@ -1,46 +1,59 @@
-main {
-    margin: 0;
+* {
     padding: 0;
-    background-color: #F0F0F0;
-    position: absolute;
+    margin: 0;
+  }
+  
+  main {
+    padding: 0 200px;
+    font-family: Roboto;
+  }
+  
+  /* TELA DE LOGIN */
+  
+  .login-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .login-form {
+    display: grid;
+    grid-template-rows: 80px repeat(2, 1fr);
+    padding: 110px 0;
+    background-color: 
+  #F0F0F0;
+  }
+  
+  .login-form > div {
     display: flex;
-    justify-content: center;
-    }
-#img {
-    width: 520px;
-    height: 664px;
-}
-section {
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
-    margin: auto;
-    
-}
-section h1 {
-   font-size: 30px;
-}
-section p {
-    font-size: 20px;    
-}
-section input{
-    width: 350px;
+  }
+  
+  .login-form > div > button {
+    background-color: 
+  #EC8213;
+    border: none;
+    color: 
+  #F0F0F0;
+    border-radius: 10px;
+    height: 40px;
+    width: 70%;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  .login-form > div > input {
+    width: 70%;
     height: 30px;
-    border-color: #74BAA0;
+    border: 2px solid 
+  #74BAA0;
     border-radius: 10px;
     padding: 10px;
-    margin:  10px;
-}
-section a {
-    margin: 10px;
-    padding: 10px;
-    
-}
-section button {
-    
-    background-color: #EC8213;
-    border: #F0F0F0;
-    color: #F0F0F0;
-    width: 375px;
-    height: 40px;
-    border-radius: 10px;    
-}
+  }
+  
+  .recover-password {
+    align-self: flex-end;
+    margin-right: 70px;
+  }
+  
