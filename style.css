@@ -1,67 +1,54 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  main {
-    padding: 0 200px;
-    font-family: Roboto;    
-    display: flex;
-  }
-  
-  /* TELA DE LOGIN */
-  
-  .login-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-  }
-  
-  .login-form {
-    display: grid;
-    grid-template-rows: 80px repeat(2, 1fr);
-    padding: 110px 0;
-    background-color:  #F0F0F0;
-  }
-  
-  .login-form > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .input-form{
-    margin-top: 35px;    
-  }
-  
-  .login-form > div > button {
-    background-color: 
-  #EC8213;
-    border: none;
-    color: 
-  #F0F0F0;
-    border-radius: 10px;
-    height: 60px;
-    width: 75%;
-    cursor: pointer;
-  }   
-  .login-form > div > input {
-    width: 70%;
-    height: 30px;
-    border: 2px solid 
-  #74BAA0;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 15px;
+  padding: 0;
+  margin: 0;
+}
 
-  }
-  .login-form > div > p {
-    margin-top: 15px;
-  }
-  .login-form > div > a {
-    margin-top: 15px;
-  }  
-  .recover-password {
-    align-self: flex-end;
-    margin-right: 90px;
-  }
+main {
+  padding: 0 200px;
+  font-family: Roboto;
+}
 
-  
+/* TELA DE LOGIN */
+
+.login-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.login-form {
+  display: grid;
+  grid-template-rows: 80px repeat(2, 1fr);
+  padding: 110px 0;
+  background-color: #F0F0F0;
+}
+
+.login-form > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-form > div > button {
+  background-color: #EC8213;
+  border: none;
+  color: #F0F0F0;
+  border-radius: 10px;
+  height: 40px;
+  width: 70%;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.login-form > div > input {
+  width: 70%;
+  height: 30px;
+  border: 2px solid #74BAA0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.recover-password {
+  align-self: flex-end;
+  margin-right: 70px;
+}
