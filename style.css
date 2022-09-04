@@ -14,10 +14,6 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
 }
-.img-login{
-  width: 520px;
-  height: 664px;;
-}
 .login-form {
   display: grid;
   grid-template-rows: 80px 250px 200px;
