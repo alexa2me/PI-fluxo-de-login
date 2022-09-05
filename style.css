@@ -1,41 +1,35 @@
-#menu {
-    position: fixed;
-    top: 0;
-    left: 0;
+/* BODY */
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 120px;
+  }
+  
+  /* HEADER */
+  header {
+    align-items: center;
     background-color: #74BAA0;
-    }
-
-    li{
-        float: left;
-        display : inline;
-    }
-    h1{
-        
-        font-family:  Inter, Arial, "Helvetica Neue", Helvetica, sans-serif;
-        font-weight: 300px;
-        font-size: 47px;
-        color: #FFFFFF;
-        padding-left: 190px;
-
-    }
-    button{
-        
-        width: 200px;
-        height: 50px;
-        left: 1200px;
-        top: 43px;
-
-        background: #EC8213;
-        border-radius: 10px;
-
-        position: absolute;
-        
-        font-family: 'Inter','Arial';
-        font-style: normal;
-        font-weight: 300px;
-        font-size: 25px;
-        line-height: 35px;
-        color: #FFFFFF;
-    }
+    display: flex; /* Flex organiza os elementos sem que você precise contar pixels à direita ou esquerda */
+    height: 120px;
+    justify-content: space-between; /* "justify-content" dá espaço entre os elementos deixando cada um junto às laterais */
+    padding: 0 200px; /* O primeiro número (O) indica o padding TOP e BOTTOM, o segundo (200px) indica o padding RIGHT e LEFT */
+  }
+  
+  header > button { /* "header > button" significa "quero estilizar o elemento button dentro de header" */
+    background: #EC8213;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 25px;
+    height: 50px;
+    width: 200px;
+  }
+  
+  header > p { /* "header > p" significa "quero estilizar o elemento p dentro de header", isso evita que as configurações desse elemento p afetem outros p dentro do projeto */
+    color: #FFFFFF;
+    font-family:  Inter, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 47px;
+    font-weight: 300px;
+  }
