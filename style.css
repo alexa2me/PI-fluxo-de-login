@@ -12,7 +12,8 @@ main {
 
 .login-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: auto auto auto; 
+  background-color: #F0F0F0;
 }
 .login-form {
   display: grid;
@@ -43,7 +44,7 @@ main {
   font-size: 1.2rem;
 }   
 .login-form > div > input {
-  width: 70%;
+  width: 95%;
   height: 30px;
   border: 2px solid 
 #74BAA0;
@@ -57,8 +58,10 @@ main {
 }
 .login-form > div > a {
   margin-top: 15px;
+  
 }  
 .recover-password {
   align-self: flex-end;
-  margin-right: 90px;
+ 
+  
 }
