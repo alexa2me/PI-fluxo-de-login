@@ -1,6 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+
+  }
 body {
-    background-color: #f0f0f0;  
+    height: 100%;
+    width: 100%;
 }
+
+
+main {
+    padding: 0px 200px;
+      }
 
 h2 {    
 font-family: 'verdana';
@@ -8,25 +20,55 @@ font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 36px;
+padding: 100px 200px;
 }
-.imagens {
-      
-       display: flex;  
-       flex-direction: column;        
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+    }
+
+.card {
+  display: grid;
+  grid-template-columns: 82% 18%;
+  grid-template-rows: 75% 25%; 
+  width: 600px; 
+  margin-bottom: 10px;
 }
-.imagens >*{
-    margin: 50px 200px;
-    
+
+
+
+.social-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #C4C4C4;
+  padding: 10px;  
 }
-.imagens1-3{
-    
-    display: flex;      
-    flex-direction: row;   
-    justify-content: space-between;
+
+.social-column > img {
+  margin-bottom: 10px;
+ 
+  }
+
+.location-row {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0F0F0;
+  padding: 10px;
+  
 }
-.imagens4-6{
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-between;
-      
-}
+
+.expiration-date {
+  background-color: #F0F0F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'inter';
+   }
+
