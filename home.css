@@ -1,9 +1,8 @@
 * {
     padding: 0;
-    margin: 0;
-    
-
+    margin: 0;  
   }
+  
 body {
     height: 100%;
     width: 100%;
@@ -24,17 +23,16 @@ padding: 100px 200px;
 }
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);  
-    }
+  grid-template-columns: auto auto auto;     
+}
 
 .card {
   display: grid;
   grid-template-columns: 82% 18%;
   grid-template-rows: 75% 25%; 
   width: 600px; 
-  margin-bottom: 10px;
+  margin: 10px;  
 }
-
 
 
 .social-column {
@@ -47,8 +45,7 @@ padding: 100px 200px;
 }
 
 .social-column > img {
-  margin-bottom: 10px;
- 
+  margin-bottom: 10px; 
   }
 
 .location-row {
@@ -58,8 +55,7 @@ padding: 100px 200px;
   align-items: center;
   justify-content: center;
   background-color: #F0F0F0;
-  padding: 10px;
-  
+  padding: 10px;  
 }
 
 .expiration-date {
@@ -71,4 +67,6 @@ padding: 100px 200px;
   font-size: 12px;
   font-family: 'inter';
    }
-
+ .expiration-date > p {
+  color:DodgerBlue;
+ }
