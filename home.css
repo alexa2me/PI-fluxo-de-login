@@ -24,6 +24,7 @@ padding: 100px 200px;
 .cards-container {
   display: grid;
   grid-template-columns: auto auto auto;     
+  
 }
 
 .card {
@@ -32,7 +33,7 @@ padding: 100px 200px;
   grid-template-rows: 75% 25%; 
   width: 600px; 
   margin: 10px;  
-}
+  }
 
 
 .social-column {
