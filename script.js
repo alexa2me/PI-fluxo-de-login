@@ -90,7 +90,15 @@ function logar(){
     }
 }
 
+//função onclick que leva pra home-não logada
+function sair(){
+    location.href= "home-nao-logada.html";
+}
 
+//função onclick que leva pra tela-login
+function entrar(){
+    location.href= "tela-login.html";
+}
 
 
 
