@@ -1,14 +1,15 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
+
 body {
   height: 100%;
   width: 100%;
 } 
 
 /* HEADER */ 
-/* */
+
 header {
   align-items: center;
   background-color: #74BAA0;
@@ -50,6 +51,7 @@ main {
   grid-template-columns: auto auto auto; 
   background-color: #F0F0F0;
 }
+
 .login-form {
   display: grid;
   grid-template-rows: 80px 250px 200px;
@@ -62,12 +64,15 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
 .input-form{
   margin-top: 35px;    
 }
+
 .btn-login{
   margin-top: 25px;
-}  
+}
+
 .login-form > div > button {
   background-color: #EC8213;
   border: none;
@@ -77,7 +82,8 @@ main {
   width: 75%;
   cursor: pointer;
   font-size: 1.2rem;
-}   
+}
+
 .login-form > div > input {
   width: 95%;
   height: 30px;
@@ -86,15 +92,16 @@ main {
   border-radius: 10px;
   padding: 10px;
   margin: 15px;
-
 }
+
 .login-form > div > p {
   margin-top: 20px;
 }
+
 .login-form > div > a {
   margin-top: 15px;
-  
 }  
+
 .recover-password {
   align-self: flex-end; 
 }
