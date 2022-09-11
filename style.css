@@ -9,7 +9,7 @@ body {
 } 
 
 /* HEADER */ 
-/* */
+
 header {
   align-items: center;
   background-color: #74BAA0;
@@ -37,21 +37,89 @@ header > p {
   font-weight: 300px;
 }
 
-  /* FOOTER */
-  
-.footer-container {
-    display:flex;
-    align-items: center;
-    padding-left: 20%;
-    padding-top: 2%;
- }
+ /* MAIN HERE */
  
-footer {
-    width: 100%;
-    height: 156px;
-    background-color: #3E9278;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: #FFFFFF; 
+main {
+  padding: 0 200px;
+  font-family: Roboto;
 }
 
+/* TELA DE LOGIN */
+
+.login-container {
+  display: grid;
+  grid-template-columns: auto auto auto; 
+  background-color: #F0F0F0;
+}
+
+.login-form {
+  display: grid;
+  grid-template-rows: 80px 250px 200px;
+  padding: 110px 0;
+  background-color:  #F0F0F0;
+}
+
+.login-form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-form{
+  margin-top: 35px;    
+}
+
+.btn-login{
+  margin-top: 25px;
+}
+
+.login-form > div > button {
+  background-color: #EC8213;
+  border: none;
+  color: #F0F0F0;
+  border-radius: 10px;
+  height: 60px;
+  width: 75%;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.login-form > div > input {
+  width: 95%;
+  height: 30px;
+  border: 2px solid 
+#74BAA0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.login-form > div > p {
+  margin-top: 20px;
+}
+
+.login-form > div > a {
+  margin-top: 15px;
+}  
+
+.recover-password {
+  align-self: flex-end; 
+}
+
+/* FOOTER */
+  
+.footer-container {
+  display:flex;
+  align-items: center;
+  padding-left: 20%;
+  padding-top: 2%;
+}
+
+footer {
+  width: 100%;
+  height: 156px;
+  background-color: #3E9278;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #FFFFFF; 
+}
