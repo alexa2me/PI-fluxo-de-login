@@ -23,14 +23,17 @@
                 <p>Entre com seu e-mail e senha para continuar</p>
               </div>
               <div class="input-form">
-                <input type="email" placeholder="E-mail">
-                <input type="password" placeholder="Senha">
-                <a href="" class="recover-password">Esqueci minha senha</a>
+               <input type="email" placeholder="E-mail" id="email" onchange="onChangeEmail()">
+               <div class="erro" id="emailObrigatorio">E-mail é obrigatório</div>
+               <div class="erro" id="emailInvalido">E-mail inválido</div>
+               <input type="password" placeholder="Senha" id="password" onchange="onChangeSenha()">
+               <div class="erro" id="senhaObrigatoria"> Senha é obrigatório</div>
+               <button class="recover-password" disabled="true" id="recuperarSenha">Esqueci minha senha</a>
               </div>
               <div class="btn-login">
-                <button>Entrar</button>
-                <p>Ainda não tem uma conta?</p>
-                <a href="">Cadastre-se agora</a>
+               <button disabled="true" id="btnEntrar" onclick="logar()">Entrar</button>
+               <p>Ainda não tem uma conta?</p>
+               <a href="">Cadastre-se agora</a>
               </div>
             </div>
         </div>        
