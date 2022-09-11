@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;  
+  }
+  
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+main {
+    padding: 0px 200px;
+      }
+
+h2 {    
+font-family: 'verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+padding: 100px 200px;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto;     
+  
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 82% 18%;
+  grid-template-rows: 75% 25%; 
+  width: 600px; 
+  margin: 10px;  
+  }
+
+
+.social-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #C4C4C4;
+  padding: 10px;  
+}
+
+.social-column > img {
+  margin-bottom: 10px; 
+  }
+
+.location-row {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0F0F0;
+  padding: 10px;  
+}
+
+.expiration-date {
+  background-color: #F0F0F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'inter';
+   }
+ .expiration-date > p {
+  color:DodgerBlue;
+ }
