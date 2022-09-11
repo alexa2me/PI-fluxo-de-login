@@ -6,51 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet a Vista</title>
     <link href="/style.css" rel="stylesheet">
-    <script src="/script.js"></script>
 </head>
 <body>
     <header>
+      <p>Pet a vista</p>
+      <button>Entrar</button>
     </header>
     <main>
-      <div class="login-container">
+        <div class="login-container">
+            <div>
+              <img src="./images/cat2.jpg" alt="Foto de um gato com um notebook">
+            </div>
+            <div class="login-form">
+              <div>
+                <h1>Entrar</h1>
+                <p>Entre com seu e-mail e senha para continuar</p>
+              </div>
+              <div class="input-form">
+               <input type="email" placeholder="E-mail" id="email" onchange="onChangeEmail()">
+               <div class="erro" id="emailObrigatorio">E-mail é obrigatório</div>
+               <div class="erro" id="emailInvalido">E-mail inválido</div>
+               <input type="password" placeholder="Senha" id="password" onchange="onChangeSenha()">
+               <div class="erro" id="senhaObrigatoria"> Senha é obrigatório</div>
+               <button class="recover-password" disabled="true" id="recuperarSenha">Esqueci minha senha</a>
+              </div>
+              <div class="btn-login">
+               <button disabled="true" id="btnEntrar" onclick="logar()">Entrar</button>
+               <p>Ainda não tem uma conta?</p>
+               <a href="">Cadastre-se agora</a>
+              </div>
+            </div>
+        </div>        
+    </main>
+    <footer><div class="footer-container">
+      <p> Made with ♥ by &nbsp &nbsp &nbsp</p>
           <div>
-            <img src="./images/cat2.jpg" alt="Foto de um gato com um notebook">
+              <img src="/images/Ale1.png" alt="Ale">  
+              <img src="/images/Fer1.png" alt="Fer">
+              <img src="/images/Enr1.png" alt="Enr"> 
+              <img src="/images/Mar1.png" alt="Mar">
+              <img src="/images/Har1.png" alt="Har">    
+              <img src="/images/Gab1.png" alt="Gab">       
+              <img src="/images/Joa1.png" alt="Joa">      
+              <img src="/images/Arn1.png" alt="Arn">
           </div>
-          <div class="login-form">
-            <div>
-              <h1>Entrar</h1>
-              <p>Entre com seu e-mail e senha para continuar</p>
-            </div>
-            <div class="input-form">
-              <input type="email" placeholder="E-mail" id="email" onchange="onChangeEmail()">
-              <div class="erro" id="emailObrigatorio">E-mail é obrigatório</div>
-              <div class="erro" id="emailInvalido">E-mail inválido</div>
-              <input type="password" placeholder="Senha" id="password" onchange="onChangeSenha()">
-              <div class="erro" id="senhaObrigatoria"> Senha é obrigatório</div>
-              <button class="recover-password" disabled="true" id="recuperarSenha">Esqueci minha senha</a>
-            </div>
-            <div class="btn-login">
-              <button disabled="true" id="btnEntrar" onclick="logar()">Entrar</button>
-              <p>Ainda não tem uma conta?</p>
-              <a href="">Cadastre-se agora</a>
-            </div>
-          </div>
-      </div>        
-  </main>
-    <footer>  
-        <div class="footer-container">
-        <p> Made with ♥ by &nbsp &nbsp &nbsp</p>
-            <div>
-                <img src="/images/Ale1.png" alt="Ale">  
-                <img src="/images/Fer1.png" alt="Fer">
-                <img src="/images/Enr1.png" alt="Enr"> 
-                <img src="/images/Mar1.png" alt="Mar">
-                <img src="/images/Har1.png" alt="Har">    
-                <img src="/images/Gab1.png" alt="Gab">       
-                <img src="/images/Joa1.png" alt="Joa">      
-                <img src="/images/Arn1.png" alt="Arn">
-            </div>
-        </div>
+      </div>
     </footer>      
 </body>
 </html>
