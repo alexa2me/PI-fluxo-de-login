@@ -11,9 +11,11 @@ body {
 
 /* campos de erro */
 .erro {
-  color: white;
-  background: rgb(156, 144, 144);
-  display: none;
+  align-self: flex-start;
+  color: rgb(255, 0, 0);
+  display: flex;
+  font-size: small;
+  width: 100%;
 }
 
 /* HEADER */
@@ -67,61 +69,79 @@ h2 {
 
 .login-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #f0f0f0;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+  width: 100%;
+}
+
+.login-container div img {
+  height: 100%;
+  width: 100%;
 }
 
 .login-form {
-  display: grid;
-  grid-template-rows: 80px 250px 200px;
-  padding: 110px 0;
+  display: flex;
+  flex-direction: column;
   background-color: #f0f0f0;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 120px 0;
 }
 
 .login-form div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 70%;
+}
+
+.login-form div:first-child {
+  color: #494848;
 }
 
 .input-form {
   margin-top: 35px;
 }
 
-.btn-login {
-  margin-top: 25px;
+.input-form a {
+  color: #5f5e5e;
+  font-size: 15px;
+  text-decoration: none;
+  align-self: flex-end;
 }
 
 .login-form div button {
   background-color: #ec8213;
-  border: none;
-  color: #f0f0f0;
   border-radius: 10px;
-  height: 60px;
-  width: 75%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: #ffffff;
   cursor: pointer;
   font-size: 1.2rem;
+  height: 45px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.login-form div button:hover {
+  background-color: #eca22b;
 }
 
 .login-form div input {
-  width: 95%;
+  width: 100%;
   height: 30px;
   border: 2px solid #74baa0;
   border-radius: 10px;
-  padding: 10px;
-  margin: 15px;
+  padding: 8px;
+  margin: 10px;
 }
 
 .login-form div p {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .login-form div a {
   margin-top: 15px;
-}
-
-.recover-password {
-  align-self: flex-end;
 }
 
 /* HOME */
