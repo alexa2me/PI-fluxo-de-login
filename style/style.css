@@ -9,15 +9,6 @@ body {
   font-family: Inter, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* campos de erro */
-.erro {
-  align-self: flex-start;
-  color: rgb(255, 0, 0);
-  display: flex;
-  font-size: small;
-  width: 100%;
-}
-
 /* HEADER */
 
 header {
